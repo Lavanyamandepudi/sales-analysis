@@ -20,3 +20,4 @@ print()
 print("Total sales by product:")
 print(df.groupby("Product")["Sales"].sum())
 print("Best selling product:", df.groupby("Product")["Sales"].sum().idxmax())
+# this is a test change
